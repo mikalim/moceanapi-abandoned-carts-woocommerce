@@ -45,7 +45,7 @@ if (!defined('MOCEANAPI_ABANDONED_CARTS_TEXT_DOMAIN')) define( 'MOCEANAPI_ABANDO
 if (!defined('MOCEANAPI_ABANDONED_CARTS_ABREVIATION')) define( 'MOCEANAPI_ABANDONED_CARTS_ABREVIATION', 'MoceanAPI Abandoned Carts' );
 if (!defined('MOCEANAPI_ABANDONED_CARTS_EMAIL_INTERVAL')) define( 'MOCEANAPI_ABANDONED_CARTS_EMAIL_INTERVAL', $frequency ); //In minutes. Defines the interval at which e-mailing function is fired
 if (!defined('MOCEANAPI_ABANDONED_CARTS_SMS_INTERVAL')) define( 'MOCEANAPI_ABANDONED_CARTS_SMS_INTERVAL', $sms_frequency );
-if (!defined('MOCEANAPI_ABANDONED_CARTS_STILL_SHOPPING')) define( 'MOCEANAPI_ABANDONED_CARTS_STILL_SHOPPING', 5 ); //In minutes. Defines the time period after which an e-mail notice will be sent to admin and the cart is presumed abandoned
+if (!defined('MOCEANAPI_ABANDONED_CARTS_STILL_SHOPPING')) define( 'MOCEANAPI_ABANDONED_CARTS_STILL_SHOPPING', 60 ); //In minutes. Defines the time period after which an e-mail notice will be sent to admin and the cart is presumed abandoned
 if (!defined('MOCEANAPI_ABANDONED_CARTS_NEW_NOTICE')) define( 'MOCEANAPI_ABANDONED_CARTS_NEW_NOTICE', 240 ); //Defining time in minutes how long New status is shown in the table
 
 
