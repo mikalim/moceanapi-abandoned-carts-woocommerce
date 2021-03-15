@@ -1,0 +1,178 @@
+/**
+ * All of the CSS for your public-specific functionality should be
+ * included in this file.
+ */
+
+#moceanapi-abandoned-carts-exit-intent-form{
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+#moceanapi-abandoned-carts-exit-intent-form-backdrop{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	opacity: 0;
+	z-index: 0;
+	display: block;
+	visibility: hidden;
+	cursor: pointer;
+	-webkit-transition: 	all .6s cubic-bezier(.38,1.09,.5,.98);
+	-webkit-transition: 	all .6s cubic-bezier(.38,1.09,.5,.98);
+	-moz-transition: 		all .6s cubic-bezier(.38,1.09,.5,.98);
+	-o-transition: 			all .6s cubic-bezier(.38,1.09,.5,.98);
+	transition: 			all .6s cubic-bezier(.38,1.09,.5,.98);
+}
+
+#moceanapi-abandoned-carts-exit-intent-form.moceanapi-abandoned-carts-visible,
+#moceanapi-abandoned-carts-exit-intent-form-backdrop.moceanapi-abandoned-carts-visible,
+.moceanapi-abandoned-carts-visible #moceanapi-abandoned-carts-exit-intent-form-container{
+	z-index: 99999999;
+	opacity: 1;
+	visibility: visible;
+}
+
+#moceanapi-abandoned-carts-exit-intent-form-backdrop.moceanapi-abandoned-carts-visible{
+	z-index: 99999998;
+	opacity: .5;
+}
+
+#moceanapi-abandoned-carts-exit-intent-close{
+	height: 42px;
+	width: 42px;
+	top: 20px;
+	right: 20px;
+	position: absolute;
+	cursor: pointer;
+	padding: 15px;
+	opacity: .6;
+	z-index: 2;
+	overflow: hidden;
+	-webkit-transition: 	all .3s cubic-bezier(.38,1.09,.5,.98);
+	-webkit-transition: 	all .3s cubic-bezier(.38,1.09,.5,.98);
+	-moz-transition: 		all .3s cubic-bezier(.38,1.09,.5,.98);
+	-o-transition: 			all .3s cubic-bezier(.38,1.09,.5,.98);
+	transition: 			all .3s cubic-bezier(.38,1.09,.5,.98);
+}
+
+#moceanapi-abandoned-carts-exit-intent-close:hover{
+	opacity: 1;
+}
+
+#moceanapi-abandoned-carts-exit-intent-form-container{
+	position: relative;
+	padding: 60px 60px 30px;
+	opacity: 0;
+	overflow-x: hidden;
+	-webkit-transition: 	all .3s cubic-bezier(.38,1.09,.5,.98);
+	-webkit-transition: 	all .3s cubic-bezier(.38,1.09,.5,.98);
+	-moz-transition: 		all .3s cubic-bezier(.38,1.09,.5,.98);
+	-o-transition: 			all .3s cubic-bezier(.38,1.09,.5,.98);
+	transition: 			all .3s cubic-bezier(.38,1.09,.5,.98);
+}
+
+#moceanapi-abandoned-carts-exit-intent-form label{
+	cursor: pointer;
+}
+
+#moceanapi-abandoned-carts-exit-intent-form label,
+#moceanapi-abandoned-carts-exit-intent-form input{
+	margin: 0 10px 10px 0;
+}
+
+#moceanapi-abandoned-carts-exit-intent-form-content-l{
+	text-align: center;
+}
+
+#moceanapi-abandoned-carts-exit-intent-form-content img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	max-height: 30vh;
+	width: auto;
+	max-width: 100%;
+}
+
+#moceanapi-abandoned-carts-exit-intent-submit{
+	opacity: .9;
+	-webkit-transition: 	all .3s cubic-bezier(.38,1.09,.5,.98);
+	-webkit-transition: 	all .3s cubic-bezier(.38,1.09,.5,.98);
+	-moz-transition: 		all .3s cubic-bezier(.38,1.09,.5,.98);
+	-o-transition: 			all .3s cubic-bezier(.38,1.09,.5,.98);
+	transition: 			all .3s cubic-bezier(.38,1.09,.5,.98);
+}
+
+#moceanapi-abandoned-carts-exit-intent-submit:hover{
+	opacity: 1;
+}
+
+#moceanapi-abandoned-carts-exit-intent-email{
+	width: 230px;
+}
+
+#moceanapi-abandoned-carts-exit-intent-form h2{
+	font-size: 34px;
+	line-height: 42px;
+}
+
+#moceanapi-abandoned-carts-exit-intent-form p{
+	font-size: 15px;
+	line-height: 20px;
+}
+
+/* Exit Intent Template
+ * Appear In Center
+ */
+ .moceanapi-abandoned-carts-ei-center#moceanapi-abandoned-carts-exit-intent-form{
+ 	overflow-y: auto;
+ 	display: -webkit-box; 
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex;
+ }
+
+.moceanapi-abandoned-carts-ei-center #moceanapi-abandoned-carts-exit-intent-form-container{
+	margin: 0;
+	position: relative;
+	height: auto;
+	width: 100%;
+	max-width: 600px;
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.moceanapi-abandoned-carts-ei-center #moceanapi-abandoned-carts-exit-intent-form-container{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.moceanapi-abandoned-carts-ei-center #moceanapi-abandoned-carts-exit-intent-form-container{
+		width: 94%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#moceanapi-abandoned-carts-exit-intent-email{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	#moceanapi-abandoned-carts-exit-intent-form-container{
+		padding: 30px 30px 10px;
+	}
+}

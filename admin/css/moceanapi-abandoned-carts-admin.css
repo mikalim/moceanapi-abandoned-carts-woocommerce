@@ -1,0 +1,343 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#moceanapi-abandoned-carts-page-wrapper .submit:after,
+.moceanapi-abandoned-carts-abandoned-product .tooltiptext,
+#moceanapi-abandoned-carts-page-wrapper td.cart_contents img,
+#moceanapi-abandoned-carts-upload-image img{
+	-webkit-transition: 	all 0.2s ease-in-out;
+	-webkit-transition: 	all 0.2s ease-in-out;
+	-moz-transition: 		all 0.2s ease-in-out;
+	-o-transition: 			all 0.2s ease-in-out;
+	transition: 			all 0.2s ease-in-out;
+}
+
+#moceanapi-abandoned-carts-page-wrapper h1{
+	margin: 10px 0;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .nav-tab-wrapper{
+	margin-bottom: 25px;
+}
+
+.wlcfc-product-list{
+	list-style-type: decimal;
+	list-style-position: outside;
+	padding-left: 10px;
+	margin: 0;
+}
+
+#moceanapi-abandoned-carts-page-wrapper.moceanapi-abandoned-carts-without-thumbnails .column-cart_contents{
+	width: 350px;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .column-cart_contents{
+	width: 20%;
+	line-height: 1em;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .column-time{
+	width: 140px;
+}
+
+#moceanapi-abandoned-carts-table .column-id{
+	width: 60px;
+}
+
+#moceanapi-abandoned-carts-table .wp-list-table td{
+	vertical-align: top;
+}
+
+#adminmenu li.current a .new-abandoned{
+	background: #ca4a1f;
+}
+
+.moceanapi-abandoned-carts-tab-icon{
+	padding: 2px 5px 2px 5px;
+}
+
+.moceanapi-abandoned-carts-tab-icon.moceanapi-abandoned-carts-logo{
+	padding-top: 1px;
+}
+
+.moceanapi-abandoned-carts-customer-icon,
+.moceanapi-abandoned-carts-time-icon{
+	height: 15px;
+	width: auto;
+	position: relative;
+	top: 2px;
+	padding-right: 7px;
+	fill: #555;
+}
+
+.moceanapi-abandoned-carts-customer-icon{
+	height: 14px;
+}
+
+.moceanapi-abandoned-carts-time-icon{
+	top: 3px;
+}
+
+.moceanapi-abandoned-carts-tab-name{
+	padding: 0 10px 0 5px;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .form-table input,
+#moceanapi-abandoned-carts-page-wrapper .form-table select{
+	width: 100%;
+	max-width: 300px;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .form-table input.button{
+	width: auto;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .form-table .moceanapi-abandoned-carts-checkbox,
+#moceanapi-abandoned-carts-page-wrapper .form-table .moceanapi-abandoned-carts-radiobutton{
+	width: 1rem;
+	max-width: unset;
+}
+
+.moceanapi-abandoned-carts-notification{
+	border-left-color: #46b450;
+}
+
+.moceanapi-abandoned-carts-notification.warning{
+	border-left-color: #ff5d00;
+}
+
+#moceanapi-abandoned-carts-setup-automation .left-part{
+	width: 80%;
+	padding-right: 5%;
+	float: left;
+}
+
+.moceanapi-abandoned-carts-description{
+	max-width: 600px;
+}
+
+.moceanapi-abandoned-carts-exit-intent-colors .wp-color-result-text{
+	color: #0071a1;
+}
+
+.moceanapi-abandoned-carts-exit-intent-image{
+	display: block;
+}
+
+.moceanapi-abandoned-carts-exit-intent-image em{
+	display: block;
+	height: 100px;
+	margin-bottom: 15px;
+  	position: relative;
+  	background-color: #dedede;
+  	border-radius: 3px 3px 0px 0px;
+	-moz-border-radius: 3px 3px 0px 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+	opacity: .7;
+	-webkit-transition: 	all .2s cubic-bezier(.38,1.09,.5,.98);
+	-webkit-transition: 	all .2s cubic-bezier(.38,1.09,.5,.98);
+	-moz-transition: 		all .2s cubic-bezier(.38,1.09,.5,.98);
+	-o-transition: 			all .2s cubic-bezier(.38,1.09,.5,.98);
+	transition: 			all .2s cubic-bezier(.38,1.09,.5,.98);
+	overflow: hidden;
+}
+
+.moceanapi-abandoned-carts-exit-intent-image i{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: #8370f7;
+	height: 60px;
+	width: 95px;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	z-index: 2;
+}
+
+.moceanapi-abandoned-carts-exit-intent-image img{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 58px;
+}
+
+.moceanapi-abandoned-carts-exit-intent-colors{
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 5px;
+}
+
+.moceanapi-abandoned-carts-exit-intent-colors label{
+	margin-right: 10px;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .form-table .moceanapi-abandoned-carts-exit-intent-colors .moceanapi-abandoned-carts-exit-intent-color-picker{
+	width: 70px;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .form-table .moceanapi-abandoned-carts-exit-intent-colors input{
+	width: auto;
+}
+
+.moceanapi-abandoned-carts-exit-intent-colors .wp-picker-container{
+	display: inline;
+}
+
+#moceanapi-abandoned-carts-exit-intent-image-container{
+	position: relative;
+	display: inline-block;
+}
+
+#moceanapi-abandoned-carts-upload-image{
+	cursor: pointer;
+}
+
+#moceanapi-abandoned-carts-upload-image img{
+	max-height: 80px;
+	width: auto;
+  	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	opacity: .7;
+}
+
+#moceanapi-abandoned-carts-upload-image img:hover{
+	opacity: 1;
+}
+
+#moceanapi-abandoned-carts-remove-image{
+	display: block;
+	width: 15px;
+	height: 15px;
+	padding: 4px;
+	position: absolute;
+	top: -2px;
+	right: -5px;
+	background: white url('../assets/close-icon.svg') no-repeat center;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .moceanapi-abandoned-carts-loading.submit:after{
+	opacity: 1;
+}
+
+#moceanapi-abandoned-carts-page-wrapper .submit:after{
+	background: url('../assets/spinner-2x.gif') no-repeat;
+	background-size: 16px 16px;
+	display: inline-block;
+	opacity: 0;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	content: '';
+	top: 6px;
+	left: 10px;
+	vertical-align: top;
+}
+
+#moceanapi-abandoned-carts-page-wrapper td.cart_contents a{
+	display: inline;
+	line-height: 1em;
+}
+
+#moceanapi-abandoned-carts-page-wrapper td.cart_contents .moceanapi-abandoned-carts-abandoned-product a{
+	display: inline-block;
+	line-height: 1.5em;
+}
+
+#moceanapi-abandoned-carts-page-wrapper td.cart_contents img{
+	height: 40px;
+	width: auto;
+	display: inline-block;
+	opacity: .8;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin: 3px 10px 3px 0;
+}
+
+.moceanapi-abandoned-carts-abandoned-product{
+	position: relative;
+	display: inline-block;
+}
+
+.moceanapi-abandoned-carts-abandoned-product .tooltiptext{
+	visibility: hidden;
+	width: 120px;
+	color: #fff;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 5px 8px;
+	position: absolute;
+	z-index: 1;
+	bottom: 122%;
+	left: 50%;
+	margin-left: -68px;
+	font-size: 12px;
+	line-height: 1.5em;
+	background: #343434;
+	opacity: 0;
+}
+
+.moceanapi-abandoned-carts-abandoned-product .tooltiptext:after{
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #343434 transparent transparent transparent;
+}
+
+.moceanapi-abandoned-carts-abandoned-product:hover .tooltiptext{
+	visibility: visible;
+	opacity: 1;
+	bottom: 115%;
+}
+
+#moceanapi-abandoned-carts-table tr:hover img{
+	opacity: 1;
+}
+
+#moceanapi-abandoned-carts-cart-statuses{
+	margin-top: -10px;
+}
+
+.moceanapi-abandoned-carts-country{
+	text-decoration: none;
+	font-variant: none;
+}
+
+@media screen and (max-width: 1200px) {
+	#moceanapi-abandoned-carts-page-wrapper .column-time,
+	#moceanapi-abandoned-carts-page-wrapper .column-cart_contents{
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	#moceanapi-abandoned-carts-table .column-id{
+		width: 100%;
+	}
+
+	#moceanapi-abandoned-carts-page-wrapper .form-table .moceanapi-abandoned-carts-checkbox,
+	#moceanapi-abandoned-carts-page-wrapper .form-table .moceanapi-abandoned-carts-radiobutton{
+		width: 1.5625rem;
+	}
+}
