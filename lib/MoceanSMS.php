@@ -19,7 +19,7 @@ class MoceanSMS_carts {
      private $api_secret = '';
      
      // REST API URL
-     public $rest_base_url = 'https://rest-api.moceansms.com/rest/1';
+     public $rest_base_url = 'https://rest.moceanapi.com/rest/1';
      
      private $rest_commands = array (
              'send_sms' => array('url' => '/sms', 'method' => 'POST'),
