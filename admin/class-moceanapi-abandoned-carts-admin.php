@@ -1448,7 +1448,7 @@ class MoceanAPI_Admin{
 	* This is used to check the country code of phone number
 	 */
 	function check_and_get_phone_number( $phone_number, $country ) {
-		$check_phone_number_request_url = 'https://dev.moceansms.com/public/mobileChecking?mobile_number={{phone}}&country_code={{country}}';
+		$check_phone_number_request_url = 'https://dashboard.moceanapi.com/public/mobileChecking?mobile_number={{phone}}&country_code={{country}}';
 		$response                       = wp_remote_get( str_replace(
 			array( '{{phone}}', '{{country}}' ),
 			array( $phone_number, $country ),
